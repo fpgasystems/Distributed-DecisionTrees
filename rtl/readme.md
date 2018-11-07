@@ -7,7 +7,7 @@ This operator is a distributed version of our previous implementation on a singl
 
 The figure below depicts the architecture of the distributed inference engine on a single FPGA. The modules in the design are annotated with the SystemVerilog file (\*.sv) which includes its implementation. The Core module (DTEngine/Core.sv) is extracted from the previous implementation on the Intel's HARP machine. 
 
-![Engine Architecture](https://github.com/fpgasystems/DistributedDecisionTrees/tree/master/images/arch.png)
+![Engine Architecture](https://github.com/fpgasystems/DistributedDecisionTrees/blob/master/rtl/arch.png)
 
 - PCIeShim.sv: This module multiplexes PCIe traffic for the CPU to either router_node or DTInference.sv
 - ManagerSoftRegs.sv: This multiplexes soft register interface between the router_node and DTInference modules.
